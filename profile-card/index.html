@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mide Giwa's Profile Card</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <main class="profile-card" data-testid="test-profile-card">
+            <figure class="profile-avatar">
+                <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/MideGiwa-2UlYL28XrRacGhtxy1r3zqs0tGnWAX.jpeg"
+                    alt="User Avatar"
+                    data-testid="test-user-avatar"
+                />
+                <figcaption>
+                    <h1 data-testid="test-user-name">Mide Giwa</h1>
+                </figcaption>
+            </figure>
+
+            <div class="profile-content">
+                <h2>About</h2>
+                <p class="profile-bio" data-testid="test-user-bio">
+                    A passionate software engineer with a love for building
+                    accessible and responsive web applications. Always learning
+                    and exploring new technologies.
+                </p>
+
+                <div class="profile-details">
+                    <p>
+                        Current Time (milliseconds):
+                        <span data-testid="test-user-time"></span>
+                    </p>
+                </div>
+
+                <nav
+                    class="profile-social-links"
+                    data-testid="test-user-social-links"
+                >
+                    <h2>Social Links</h2>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://github.com/midegiwa"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-github"
+                                >GitHub</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://linkedin.com/in/olamide-sina-giwa"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-linkedin"
+                                >LinkedIn</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://x.com/mide_giwa_"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-twitter"
+                                >Twitter</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://midegiwa.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-portfolio"
+                                >Portfolio</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+
+                <section class="profile-hobbies">
+                    <h2>Hobbies</h2>
+                    <ul data-testid="test-user-hobbies">
+                        <li>Reading</li>
+                        <li>Writing</li>
+                        <li>Philosophising</li>
+                        <li>Gaming</li>
+                        <li>Being sarcastic</li>
+                    </ul>
+                </section>
+
+                <section class="profile-dislikes">
+                    <h2>Dislikes</h2>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Unnecessary bureaucracy</li>
+                        <li>Poorly documented APIs</li>
+                        <li>Stupid questions</li>
+                        <li>Slow internet</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
